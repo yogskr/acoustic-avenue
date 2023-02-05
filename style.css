@@ -9,8 +9,8 @@
     background-color: #1F2937;
 }
 
-.hero, .featured {
-    padding: 0 70px 50px 70px;
+.hero {
+    padding: 0 120px 50px 120px;
 }
 
 /* Navigation Bar */
@@ -39,7 +39,7 @@
 }
 
 .nav-link:hover {
-    color: #25b9d6;
+    color: #56bbbb;
     background-color: #E5E7EB;
     transform: scale(.80);
     border-radius: 3px;
@@ -71,7 +71,7 @@
     color: #E5E7EB;
 }
 
-.cta {
+.cta-btn {
     font-size: 20px;
     font-weight: bold;
     padding: 5px 35px;
@@ -81,7 +81,7 @@
     color: #FFFFFF;
 }
 
-.cta:hover {
+.cta-btn:hover {
     cursor: pointer;
     background-color: #F9FAF8;
     color: #25b9d6;
@@ -103,7 +103,7 @@ img {
 
 .hero-image {
     display: flex;
-    width: 40%;
+    width: 37%;
     justify-content: end;
 }
 
@@ -112,6 +112,7 @@ img {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 0 120px 50px 120px;
 }
 
 .featured-header {
@@ -131,6 +132,11 @@ img {
     padding: 10px;
 }
 
+.featured-text {
+    font-size: 16px;
+    color: #1F2937;
+}
+
 .featured-container {
     display: flex;
     justify-content: space-between;
@@ -144,8 +150,8 @@ img {
 }
 
 .artist-icon {
-    border: 3px solid #1F2937;
-    border-radius: 10px;
+    border: 5px solid #56bbbb;
+    border-radius: 15px;
     box-sizing: border-box;
     transition: all .2s ease-in-out;
 }
@@ -161,4 +167,27 @@ img {
 .soundcloud-link:hover {
     color: #25b9d6;
     transition: 0.3s;
+}
+
+/* Quote */
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 50px 120px 50px 120px;
+}
+
+.quote-text {
+    text-align: justify;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    
+}
+
+.quote-owner {
+    text-align: end;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1F2937;
 }
