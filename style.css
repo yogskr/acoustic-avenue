@@ -267,4 +267,5 @@ input[type="submit"]:hover {
 
 .footer-link:hover {
     color: #56bbbb;
+    transition: all .2s ease-in-out;
 }
