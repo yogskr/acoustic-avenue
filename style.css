@@ -113,6 +113,8 @@ img {
     flex-direction: column;
     text-align: center;
     padding: 0 120px 50px 120px;
+    margin: 2rem 0 5rem 0;
+    gap: 3rem;
 }
 
 .featured-header {
@@ -128,7 +130,6 @@ img {
     background-color: #56bbbb;
     color: #F9FAF8;
     width: 20%;
-    height: auto;
     padding: 10px;
 }
 
@@ -190,4 +191,79 @@ img {
     font-size: 16px;
     font-weight: bold;
     color: #1F2937;
+}
+
+/* Call-To-Action */
+form {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+}
+
+label {
+    display: block;
+    font-size: 17px;
+    color: #1F2937;
+    margin: 0.5rem auto;
+}
+
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 30%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    border-radius: 16px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #56bbbb;
+    transition: all .2s ease-in-out;
+}
+
+.cta-header-text {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #56bbbb;
+    color: #F9FAF8;
+    width: 100%;
+    padding: 10px;
+}
+
+.cta-main {
+    padding: 50px 120px 50px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 0 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-link {
+    color: #E5E7EB;
+}
+
+.footer-link:hover {
+    color: #56bbbb;
 }
